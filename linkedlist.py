@@ -1,5 +1,5 @@
 """
-This file consists the Python Implementation of LinkedList and its various methods.
+This file consists the Python Implementation of Linked List and its various methods.
 @author: Mateen Sofi
 """
 
