@@ -1,3 +1,9 @@
+"""
+This file consists of the Python Implementation of Trees and its various methods.
+@author: Mateen Sofi
+"""
+
+
 class Node:
     def __init__(self, value):
         self.value = value

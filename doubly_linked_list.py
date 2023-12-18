@@ -1,5 +1,5 @@
 """
-This file consists the Python Implementation of Doubly Linked List and its various methods.
+This file consists of the Python Implementation of Doubly Linked List and its various methods.
 @author: Mateen Sofi
 """
 
