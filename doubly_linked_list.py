@@ -144,6 +144,9 @@ class DoublyLinkedList:
         after.prev = before
         temp.next = None
         temp.prev = None
+
+        self.length -= 1
+
         return temp
 
 
