@@ -21,11 +21,12 @@ class DoublyLinkedList:
     def print_list(self):
         temp = self.head
         while temp:
-            print("Node", temp)
-            print("Value", temp.value)
-            print("Prev", temp.prev)
-            print("Next", temp.next)
-            print("++++++++++++++++++++++++++++")
+            # print("Node", temp)
+            # print("Value", temp.value)
+            # print("Prev", temp.prev)
+            # print("Next", temp.next)
+            # print("++++++++++++++++++++++++++++")
+            print(temp.value)
             temp = temp.next
 
     def append(self, value):
@@ -150,45 +151,46 @@ class DoublyLinkedList:
         return temp
 
 
-# Create a Doubly Linked List
-my_linked_list = DoublyLinkedList(10)
-my_linked_list.append(20)
-my_linked_list.append(30)
-my_linked_list.append(40)
-my_linked_list.append(50)
-my_linked_list.prepend(0)
+if __name__ == "__main__":
+    # Create a Doubly Linked List
+    my_linked_list = DoublyLinkedList(10)
+    my_linked_list.append(20)
+    my_linked_list.append(30)
+    my_linked_list.append(40)
+    my_linked_list.append(50)
+    my_linked_list.prepend(0)
 
-my_linked_list.print_list()
+    my_linked_list.print_list()
 
-# Test Case for Pop
-print("Popping the last node")
-print(my_linked_list.pop())
-print("++++++++++++++++++++++++")
+    # Test Case for Pop
+    print("Popping the last node")
+    print(my_linked_list.pop())
+    print("++++++++++++++++++++++++")
 
-# Test Case for Pop First
-print("Popping First Node")
-print(my_linked_list.pop_first())
-print("++++++++++++++++++++++++")
-print("Printing List Again After Popping First Node")
-my_linked_list.print_list()
+    # Test Case for Pop First
+    print("Popping First Node")
+    print(my_linked_list.pop_first())
+    print("++++++++++++++++++++++++")
+    print("Printing List Again After Popping First Node")
+    my_linked_list.print_list()
 
-print("Getting value from first half at index = 2")
-print(my_linked_list.get(2))
+    print("Getting value from first half at index = 2")
+    print(my_linked_list.get(2))
 
-print("Getting value from second half at index = 4")
-print(my_linked_list.get(4))
+    print("Getting value from second half at index = 4")
+    print(my_linked_list.get(4))
 
-print("Setting value at index = 2")
-print(my_linked_list.set(2, 200))
-my_linked_list.print_list()
+    print("Setting value at index = 2")
+    print(my_linked_list.set(2, 200))
+    my_linked_list.print_list()
 
-# Test Cases for Insert
-print(my_linked_list.insert(2, 250))
-my_linked_list.print_list()
+    # Test Cases for Insert
+    print(my_linked_list.insert(2, 250))
+    my_linked_list.print_list()
 
-# Test Cases for Remove
-my_linked_list.print_list()
-print("After removing node")
-print(my_linked_list.remove(4))
-print("LL after node removal")
-my_linked_list.print_list()
+    # Test Cases for Remove
+    my_linked_list.print_list()
+    print("After removing node")
+    print(my_linked_list.remove(4))
+    print("LL after node removal")
+    my_linked_list.print_list()
