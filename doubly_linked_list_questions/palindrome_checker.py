@@ -24,7 +24,7 @@ my_dll_1.append(2)
 my_dll_1.append(1)
 
 print('my_dll_1 is_palindrome:')
-print( my_dll_1.is_palindrome())
+print(my_dll_1.is_palindrome())
 
 
 my_dll_2 = DoublyLinkedListPro(1)
@@ -32,7 +32,4 @@ my_dll_2.append(2)
 my_dll_2.append(3)
 
 print('\nmy_dll_2 is_palindrome:')
-print( my_dll_2.is_palindrome())
-
-
-
+print(my_dll_2.is_palindrome())
